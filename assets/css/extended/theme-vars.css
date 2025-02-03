@@ -1,0 +1,6 @@
+:root {
+    --main-width: 960px;
+}
+.first-entry {
+    min-height: 0px;
+}

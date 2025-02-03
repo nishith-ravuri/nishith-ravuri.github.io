@@ -8,15 +8,12 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
-      Welcome to my website.      
+      I'm studying 2nd year <b>Mechtronics and Robotics Engineering</b> 🤖 (MRE) at <b>Queen's University</b>, Kinston, Canada.      
   socialIcons:
-    - name: email
-      url: 'mailto:some@emailadres.com'
-assets:
-  favicon16x16: /assets/favicon-16x16.png
-  favicon32x32: /assets/favicon-32x32.png
-  apple_touch_icon: /assets/apple-touch-icon.png
-favicon: favicon.ico
+    - name: github
+      url: 'https://github.com/nishith-ravuri'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/nishith-ravuri-07b622283'      
 menu:
   main:
   - identifier: home
@@ -31,3 +28,10 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: true

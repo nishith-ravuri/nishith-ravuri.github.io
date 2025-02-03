@@ -1,5 +1,5 @@
-baseURL: "https://nishith-ravuri.github.io/"
-relativeURLs: false
+baseURL: "/"
+relativeURLs: true
 languageCode: en-us
 title: Nishith Ravuri
 theme: PaperMod

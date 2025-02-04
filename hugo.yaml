@@ -8,30 +8,23 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
-      I'm studying 2nd year <b>Mechtronics and Robotics Engineering</b> 🤖 (MRE) at <b>Queen's University</b>, Kinston, Canada.      
+      I'm studying 2nd year <b>Mechtronics and Robotics Engineering</b> 🤖 (MRE) at <b>Queen's University</b>, Kinston, Canada. This is my personal website, where I capture my learnings. 
   socialIcons:
     - name: github
       url: 'https://github.com/nishith-ravuri'
     - name: linkedin
-      url: 'https://www.linkedin.com/in/nishith-ravuri-07b622283'      
+      url: 'https://www.linkedin.com/in/nishith-ravuri-07b622283'
 menu:
   main:
+  - identifier: about
+    name: About
+    url: 'https://github.com/nishith-ravuri'
+    weight: 10
   - identifier: home
     name: Home
     url: /
     weight: 10
   - identifier: posts
-    name: About
-    url: /posts/
-    weight: 20
-  - identifier: posts
     name: Blog
     url: /posts/
     weight: 20
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    noClasses: true
